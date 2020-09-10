@@ -1,9 +1,6 @@
 package com.example.myapplication;
 
-import java.io.File;
-
 public class Video {
-
     private String videoLink;
     private String videoName;
 

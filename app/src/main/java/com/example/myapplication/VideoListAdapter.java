@@ -23,6 +23,7 @@ public class VideoListAdapter extends ArrayAdapter<Video> {
     private static final String TAG = "VideoListAdapter";
     private Context mContext;
     int mResource;
+
     public VideoListAdapter(Context context, int resource, ArrayList<Video> objects) {
         super(context, resource, objects);
         mContext = context;

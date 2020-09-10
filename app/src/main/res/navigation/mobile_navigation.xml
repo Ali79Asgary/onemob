@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_moreOptions">
+    app:startDestination="@id/navigation_moreOptions">
 
     <fragment
         android:id="@+id/navigation_videos"
@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/navigation_exams"
-        android:name="com.example.myapplication.ui.dashboard.DashboardFragment"
+        android:name="com.example.myapplication.ui.exams.ExamsFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_videos" />
+        tools:layout="@layout/fragment_exams"/>
 
     <fragment
         android:id="@+id/navigation_moreOptions"

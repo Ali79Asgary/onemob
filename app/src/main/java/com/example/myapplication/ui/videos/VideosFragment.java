@@ -36,13 +36,11 @@ import java.util.ArrayList;
 public class VideosFragment extends Fragment {
 
     private VideosViewModel videosViewModel;
-    Video v1;
     String videoUrl = "link";
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -63,8 +61,6 @@ public class VideosFragment extends Fragment {
         videoListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
-
             }
         });
         return root;
@@ -74,8 +70,16 @@ public class VideosFragment extends Fragment {
 
     private ArrayList<Video> genVideos() {
         ArrayList<Video> videos = new ArrayList<Video>();
-        v1 = new Video("link","name");
+        Video v1 = new Video("link","ویدیو یک");
         videos.add(v1);
+        Video v2 = new Video("link","ویدیو دو");
+        videos.add(v2);
+        Video v3 = new Video("link","ویدیو سه");
+        videos.add(v3);
+        Video v4 = new Video("link","ویدیو چهار");
+        videos.add(v4);
+        Video v5 = new Video("link","ویدیو پنج");
+        videos.add(v5);
         return videos;
     }
 

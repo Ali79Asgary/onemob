@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/signUpPageRelativeLayout"
-    android:background="@mipmap/sign_up_page">
+    android:background="@drawable/register">
 
     <TextView
         android:id="@+id/lblSignUpPage"
@@ -35,7 +35,7 @@
         android:layout_below="@id/lblName"
         android:id="@+id/txtName"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="183dp"
         android:layout_marginTop="10dp"/>
     <TextView
         android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
         android:layout_marginTop="10dp"
         android:id="@+id/txtEmailAddress"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="183dp"
         android:inputType="textEmailAddress"/>
     <TextView
         android:layout_width="wrap_content"
@@ -79,15 +79,15 @@
         android:layout_below="@+id/lblPassword"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="183dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtPassword"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="183dp"
         android:background="#A6C51162"
         android:id="@+id/btnSignUp"
         android:text="@string/sign_up_button_text"
@@ -97,7 +97,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/if_have_account_text"
+        android:text="@string/signUp_text_login_first_line"
         android:layout_below="@id/btnSignUp"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
@@ -105,6 +105,18 @@
         android:textColor="#000000"
         android:id="@+id/lblHaveAnAccount"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="127dp"/>
+        android:layout_marginLeft="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblLoginInRegisterPage"
+        android:text="@string/signUp_page_login_text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#C51162"
+        android:layout_below="@+id/lblHaveAnAccount"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="10dp"/>
 
 </RelativeLayout>

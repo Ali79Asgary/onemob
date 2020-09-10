@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">"برنامه"</string>
-    <string name="title_home">فیلم ها</string>
-    <string name="title_dashboard">آزمون ها</string>
-    <string name="title_notifications">اطلاعات</string>
+    <string name="app_name">"برنامه                                                                                                                                              "</string>
+    <string name="title_home">"فیلم ها                                                                                                    "</string>
+    <string name="title_dashboard">"آزمون ها                                                                                                                           "</string>
+    <string name="title_notifications">"اطلاعات                                                                                                                                                  "</string>
     <string name="title_videos">فیلم‌ها</string>
     <string name="title_exams">آزمون‌ها</string>
     <string name="title_moreOptions">بیشتر</string>
@@ -10,7 +10,7 @@
     <string name="email_text">ایمیل</string>
     <string name="password_text">رمز عبور</string>
     <string name="login_button_text">ورود</string>
-    <string name="signUp_text_login">آیا حساب کاربری دارید؟ ثبت نام</string>
+    <string name="signUp_text_login_first_line">آیا حساب کاربری دارید؟</string>
     <string name="video_name">نام فیلم</string>
     <string name="creature_name">نام سازنده</string>
     <string name="video_length">مدت زمان فیلم</string>
@@ -21,4 +21,7 @@
     <string name="password_text_sign_up">رمز عبور</string>
     <string name="if_have_account_text">آیا حساب کاربری دارید؟ وارد شوید</string>
     <string name="sign_up_button_text">ثبت نام</string>
+    <string name="signUp_page_login_text">ورود</string>
+    <string name="login_page_register">آیا حساب کاربری دارید؟ ثبت نام</string>
+    <string name="exam_name_text">نام آزمون</string>
 </resources>
